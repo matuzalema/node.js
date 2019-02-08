@@ -1,9 +1,7 @@
 process.stdin.on('readable', function() {
     var nodeInf = process.versions.node;
     process.stdout.write('Node version: ' + nodeInf);
-
     var systemLanguage = process.env.LANG;
-
     var system = process.platform;
 
     switch(system)
