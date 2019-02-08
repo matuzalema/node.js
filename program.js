@@ -7,10 +7,10 @@ process.stdin.on('readable', function() {
     switch(system)
     {
     case "macOS":
-        process.stdout.write('Twoj system to:' + systemLanguage);
+        process.stdout.write(systemLanguage);
         break;
     case "Linux":
-        process.stdout.write('Twoj system to:' + systemLanguage);
+        process.stdout.write(systemLanguage);
         break;
     }
 
