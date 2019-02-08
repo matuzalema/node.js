@@ -21,6 +21,7 @@ process.stdin.on('readable', function() {
             process.stdout.write(' Quitting app!\n');
             process.exit();
         } else {
-            process.stderr.write(' Wrong instruction!');        }
+            process.stderr.write(' Wrong instruction!');
+        }
     }
 });
